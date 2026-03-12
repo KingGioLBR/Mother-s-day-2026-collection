@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>La Boîte Rose — Mother's Day 2026</title>
+    <title>La Boite Rose — Mother's Day 2026</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,300;0,400;1,300;1,400&family=Didact+Gothic&family=EB+Garamond:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
     <style>
@@ -94,6 +94,14 @@
             z-index: 1;
             text-align: center;
             animation: fadeUp 1s 0.15s ease both;
+        }
+
+        .hero-logo-img {
+            width: clamp(180px, 55vw, 320px);
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 4px;
         }
 
         .hero-logo-wordmark {
@@ -854,7 +862,8 @@
 
     <!-- Single connected wordmark -->
     <div class="hero-logo-block">
-        <span class="hero-logo-wordmark">LaBoîte<span class="part-rose">Rose</span></span>
+        <img src="LBRlogo.jpg" alt="La Boite Rose" class="hero-logo-img">
+        <span class="hero-logo-wordmark">LaBoite<span class="part-rose">Rose</span></span>
         <span class="hero-logo-sub">Lebanon · Dubai</span>
         <div class="hero-logo-ornaments">
             <div class="line rev"></div>
@@ -991,7 +1000,7 @@
     <!-- 5. Signature Box for Mom -->
     <div class="card">
         <div class="card-image">
-            <img src="signature-box-mom.jpg" alt="Signature Box for Mom — luxury box with roses, peonies & lisianthus">
+            <img src="signature-box-mom.jpg" alt="Signature Box for Mom — luxury box with roses">
         </div>
         <div class="card-body">
             <div class="card-eyebrow">3 Sizes</div>
@@ -999,7 +1008,7 @@
             <div class="card-price">$75 · $85 · $95</div>
             <div class="card-desc">Our signature luxury box in soft blush and cream. The perfect way to show her she's cherished.</div>
             <ul class="card-details">
-                <li>Premium roses, peonies &amp; lisianthus</li>
+                <li>Premium roses</li>
                 <li>Luxury presentation box</li>
                 <li>Three sizes available</li>
                 <li>Roses available in pink, white or red — your choice</li>
@@ -1136,15 +1145,15 @@
     <!-- 15. Signature Box Deluxe -->
     <div class="card">
         <div class="card-image">
-            <img src="signature-box-deluxe.jpg" alt="Signature Box Deluxe — roses & hydrangeas in lacquered box with silk ribbon">
+            <img src="signature-box-deluxe.jpg" alt="Signature Box Deluxe — roses in lacquered box with silk ribbon">
         </div>
         <div class="card-body">
             <div class="card-eyebrow">Heirloom Quality</div>
             <div class="card-name">Signature Box Deluxe</div>
             <div class="card-price">$95</div>
-            <div class="card-desc">Premium roses and hydrangeas in a lacquered box with silk ribbon and pearl detail. Our most luxurious presentation.</div>
+            <div class="card-desc">Premium roses in a lacquered box with silk ribbon and pearl detail. Our most luxurious presentation.</div>
             <ul class="card-details">
-                <li>Premium roses &amp; hydrangeas</li>
+                <li>Premium roses</li>
                 <li>Deluxe lacquered box</li>
                 <li>Silk ribbon with pearl detail</li>
                 <li>Roses available in pink, white or red — your choice</li>
@@ -1202,7 +1211,7 @@
             <div class="card-price">S $75 · M $95 · L $125</div>
             <div class="card-desc">A round pink keepsake box overflowing with a curated mix of seasonal blooms. Beautifully full, endlessly romantic.</div>
             <ul class="card-details">
-                <li>Mixed premium flowers — roses, peonies &amp; more</li>
+                <li>Mixed premium seasonal flowers</li>
                 <li>Signature round pink box</li>
                 <li>Small $75 · Medium $95 · Large $125</li>
                 <li>Handwritten message card included</li>
@@ -1252,7 +1261,7 @@
             <ul class="card-details">
                 <li>Single eternal rose in acrylic cylinder</li>
                 <li>Available in Gold or Red</li>
-                <li>Signature black ribbon &amp; La Boîte Rose seal</li>
+                <li>Signature black ribbon &amp; La Boite Rose seal</li>
                 <li>Lasts a lifetime — no care needed</li>
             </ul>
             <div class="card-actions">
@@ -1267,7 +1276,7 @@
 <!-- ── FOOTER ── -->
 <footer class="footer">
     <div class="footer-ornament">✦ ✦ ✦</div>
-    <div class="footer-logo">La Boîte Rose</div>
+    <div class="footer-logo">La Boite Rose</div>
     <div class="footer-tagline">Flowers that speak from the heart</div>
 
     <div class="footer-contact">
@@ -1292,7 +1301,7 @@
     </div>
 
     <div class="footer-copy">
-        © 2026 La Boîte Rose — made with emotion
+        © 2026 La Boite Rose — made with emotion
     </div>
 </footer>
 
@@ -1309,7 +1318,7 @@
         50:  "Fifty magnificent roses. She deserves to feel like a queen on her day.",
         100: "One hundred roses in soft pink and white. Thank you for everything, Mom.",
         150: "One hundred fifty roses. A breathtaking statement of love that fills any room.",
-        200: "The ultimate tribute to the woman who gave you everything. Two hundred roses and premium champagne."
+        200: "The ultimate tribute to the woman who gave you everything. Two hundred roses."
     };
 
     let grandState = { roses: 50, basePrice: 150, ferreroBox: 'none', ferreroExtra: 0 };
